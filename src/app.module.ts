@@ -9,7 +9,7 @@ import { AutoModule } from './auto/auto.module';
 
 @Module({
   imports: [TaskModule, ProjectsModule, AuthModule, UsersModule, AutoModule],
-  // controllers: [AppController],
-  // providers: [AppService],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}
