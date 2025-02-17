@@ -15,7 +15,7 @@ export class AppController {
   @Get('/express')
   getExpress(@Req() request: Request, @Res() response: Response){
     response.status(200).json({
-      message: 'Endpoint de Express'
+      message: 'Hola desde coolify'
     })
   }
 }
